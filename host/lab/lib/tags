@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASM	string.c	9;"	d	file:
+BUFLEN	readline.c	4;"	d	file:
+COLOR	printfmt.c	/^int COLOR = 0x000000ce;$/;"	v
+FDTABLE	fd.c	8;"	d	file:
+FILEDATA	fd.c	11;"	d	file:
+INDEX2DATA	fd.c	16;"	d	file:
+INDEX2FD	fd.c	14;"	d	file:
+MAXFD	fd.c	6;"	d	file:
+PTE_COW	fork.c	8;"	d	file:
+UTEMP2	spawn (Jeet PS's conflicted copy 2011-12-03).c	5;"	d	file:
+UTEMP2	spawn.c	5;"	d	file:
+UTEMP2	spawn_vmm.c	5;"	d	file:
+UTEMP2USTACK	spawn (Jeet PS's conflicted copy 2011-12-03).c	4;"	d	file:
+UTEMP2USTACK	spawn.c	4;"	d	file:
+UTEMP2USTACK	spawn_vmm.c	4;"	d	file:
+UTEMP3	spawn (Jeet PS's conflicted copy 2011-12-03).c	6;"	d	file:
+UTEMP3	spawn.c	6;"	d	file:
+UTEMP3	spawn_vmm.c	6;"	d	file:
+_panic	panic.c	/^_panic(const char *file, int line, const char *fmt,...)$/;"	f
+_pgfault_handler	pgfault.c	/^void (*_pgfault_handler)(struct UTrapframe *utf);$/;"	v
+_pgfault_upcall	pfentry.S	/^_pgfault_upcall:$/;"	l
+_start	entry.S	/^_start:$/;"	l
+args_exist	entry.S	/^args_exist:$/;"	l
+argv0	panic.c	/^char *argv0;$/;"	v
+binaryname	libmain.c	/^char *binaryname = "(PROGRAM NAME UNKNOWN)";$/;"	v
+buf	fprintf.c	/^	char buf[256];$/;"	m	struct:printbuf	file:
+buf	printf.c	/^	char buf[256];$/;"	m	struct:printbuf	file:
+buf	printfmt.c	/^	char *buf;$/;"	m	struct:sprintbuf	file:
+buf	readline.c	/^static char buf[BUFLEN];$/;"	v	file:
+close	fd.c	/^close(int fdnum)$/;"	f
+close_all	fd.c	/^close_all(void)$/;"	f
+cnt	printf.c	/^	int cnt;	\/\/ total bytes printed so far$/;"	m	struct:printbuf	file:
+cnt	printfmt.c	/^	int cnt;$/;"	m	struct:sprintbuf	file:
+cprintf	printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cputchar	console.c	/^cputchar(int ch)$/;"	f
+debug	fd.c	3;"	d	file:
+debug	file.c	5;"	d	file:
+dev_lookup	fd.c	/^dev_lookup(int dev_id, struct Dev **dev)$/;"	f
+devfile	file.c	/^struct Dev devfile =$/;"	v	typeref:struct:Dev
+devfile_flush	file.c	/^devfile_flush(struct Fd *fd)$/;"	f	file:
+devfile_read	file.c	/^devfile_read(struct Fd *fd, void *buf, size_t n)$/;"	f	file:
+devfile_stat	file.c	/^devfile_stat(struct Fd *fd, struct Stat *st)$/;"	f	file:
+devfile_trunc	file.c	/^devfile_trunc(struct Fd *fd, off_t newsize)$/;"	f	file:
+devfile_write	file.c	/^devfile_write(struct Fd *fd, const void *buf, size_t n)$/;"	f	file:
+devtab	fd.c	/^static struct Dev *devtab[] =$/;"	v	typeref:struct:Dev	file:
+dup	fd.c	/^dup(int oldfdnum, int newfdnum)$/;"	f
+duppage	fork.c	/^duppage(envid_t envid, unsigned pn)$/;"	f	file:
+ebuf	printfmt.c	/^	char *ebuf;$/;"	m	struct:sprintbuf	file:
+env	libmain.c	/^volatile struct Env *env;$/;"	v	typeref:struct:Env
+error	fprintf.c	/^	int error;	\/\/ first error that occurred$/;"	m	struct:printbuf	file:
+error_string	printfmt.c	/^static const char * const error_string[MAXERROR + 1] =$/;"	v	file:
+exit	exit.c	/^exit(void)$/;"	f
+fd	fprintf.c	/^	int fd;		\/\/ file descriptor$/;"	m	struct:printbuf	file:
+fd2data	fd.c	/^fd2data(struct Fd *fd)$/;"	f
+fd2num	fd.c	/^fd2num(struct Fd *fd)$/;"	f
+fd_alloc	fd.c	/^fd_alloc(struct Fd **fd_store)$/;"	f
+fd_close	fd.c	/^fd_close(struct Fd *fd, bool must_exist)$/;"	f
+fd_lookup	fd.c	/^fd_lookup(int fdnum, struct Fd **fd_store)$/;"	f
+fdtab	entry.S	/^fdtab:$/;"	l
+fork	fork.c	/^fork(void)$/;"	f
+fprintf	fprintf.c	/^fprintf(int fd, const char *fmt, ...)$/;"	f
+fsipc	file.c	/^fsipc(unsigned type, void *dstva)$/;"	f	file:
+fsipcbuf	entry.S	/^fsipcbuf:$/;"	l
+fstat	fd.c	/^fstat(int fdnum, struct Stat *stat)$/;"	f
+ftruncate	fd.c	/^ftruncate(int fdnum, off_t newsize)$/;"	f
+getchar	console.c	/^getchar(void)$/;"	f
+getint	printfmt.c	/^getint(va_list *ap, int lflag)$/;"	f	file:
+getuint	printfmt.c	/^getuint(va_list *ap, int lflag)$/;"	f	file:
+idx	fprintf.c	/^	int idx;	\/\/ current buffer index$/;"	m	struct:printbuf	file:
+idx	printf.c	/^	int idx;	\/\/ current buffer index$/;"	m	struct:printbuf	file:
+init_stack	spawn (Jeet PS's conflicted copy 2011-12-03).c	/^init_stack(envid_t child, const char **argv, uintptr_t *init_esp)$/;"	f	file:
+init_stack	spawn.c	/^init_stack(envid_t child, const char **argv, uintptr_t *init_esp)$/;"	f	file:
+init_stack	spawn_vmm.c	/^init_stack(envid_t child, const char **argv, uintptr_t *init_esp)$/;"	f	file:
+ipc_recv	ipc.c	/^ipc_recv(envid_t *from_env_store, void *pg, int *perm_store)$/;"	f
+ipc_send	ipc.c	/^ipc_send(envid_t to_env, uint32_t val, void *pg, int perm)$/;"	f
+libmain	libmain.c	/^libmain(int argc, char **argv)$/;"	f
+map_segment	spawn (Jeet PS's conflicted copy 2011-12-03).c	/^map_segment(envid_t child, uintptr_t va, size_t memsz, $/;"	f	file:
+map_segment	spawn.c	/^map_segment(envid_t child, uintptr_t va, size_t memsz, $/;"	f	file:
+map_segment	spawn_vmm.c	/^map_segment(envid_t child, uintptr_t va, size_t memsz, $/;"	f	file:
+memcmp	string.c	/^memcmp(const void *v1, const void *v2, size_t n)$/;"	f
+memcpy	string.c	/^memcpy(void *dst, void *src, size_t n)$/;"	f
+memfind	string.c	/^memfind(const void *s, int c, size_t n)$/;"	f
+memmove	string.c	/^memmove(void *dst, const void *src, size_t n)$/;"	f
+memset	string.c	/^memset(void *v, int c, size_t n)$/;"	f
+open	file.c	/^open(const char *path, int mode)$/;"	f
+pageref	pageref.c	/^pageref(void *v)$/;"	f
+pgfault	fork.c	/^pgfault(struct UTrapframe *utf)$/;"	f	file:
+printbuf	fprintf.c	/^struct printbuf {$/;"	s	file:
+printbuf	printf.c	/^struct printbuf {$/;"	s	file:
+printf	fprintf.c	/^printf(const char *fmt, ...)$/;"	f
+printfmt	printfmt.c	/^printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...)$/;"	f
+printnum	printfmt.c	/^printnum(void (*putch)(int, void*), void *putdat,$/;"	f	file:
+putch	fprintf.c	/^putch(int ch, void *thunk)$/;"	f	file:
+putch	printf.c	/^putch(int ch, struct printbuf *b)$/;"	f	file:
+read	fd.c	/^read(int fdnum, void *buf, size_t n)$/;"	f
+readline	readline.c	/^readline(const char *prompt)$/;"	f
+readn	fd.c	/^readn(int fdnum, void *buf, size_t n)$/;"	f
+remove	file.c	/^remove(const char *path)$/;"	f
+result	fprintf.c	/^	ssize_t result;	\/\/ accumulated results from write$/;"	m	struct:printbuf	file:
+seek	fd.c	/^seek(int fdnum, off_t offset)$/;"	f
+set_pgfault_handler	pgfault.c	/^set_pgfault_handler(void (*handler)(struct UTrapframe *utf))$/;"	f
+sfork	fork.c	/^sfork(void)$/;"	f
+snprintf	printfmt.c	/^snprintf(char *buf, int n, const char *fmt, ...)$/;"	f
+spawn	spawn (Jeet PS's conflicted copy 2011-12-03).c	/^spawn(const char *prog, const char **argv)$/;"	f
+spawn	spawn.c	/^spawn(const char *prog, const char **argv)$/;"	f
+spawn	spawn_vmm.c	/^spawn(const char *prog, const char **argv)$/;"	f
+spawn_vmmn	spawn (Jeet PS's conflicted copy 2011-12-03).c	/^spawn_vmmn(const char *prog)$/;"	f
+spawn_vmmn	spawn.c	/^spawn_vmmn(const char *prog)$/;"	f
+spawnl	spawn (Jeet PS's conflicted copy 2011-12-03).c	/^spawnl(const char *prog, const char *arg0, ...)$/;"	f
+spawnl	spawn.c	/^spawnl(const char *prog, const char *arg0, ...)$/;"	f
+spawnl	spawn_vmm.c	/^spawnl(const char *prog, const char *arg0, ...)$/;"	f
+sprintbuf	printfmt.c	/^struct sprintbuf {$/;"	s	file:
+sprintputch	printfmt.c	/^sprintputch(int ch, struct sprintbuf *b)$/;"	f	file:
+stat	fd.c	/^stat(const char *path, struct Stat *stat)$/;"	f
+strchr	string.c	/^strchr(const char *s, char c)$/;"	f
+strcmp	string.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcpy	string.c	/^strcpy(char *dst, const char *src)$/;"	f
+strfind	string.c	/^strfind(const char *s, char c)$/;"	f
+strlcpy	string.c	/^strlcpy(char *dst, const char *src, size_t size)$/;"	f
+strlen	string.c	/^strlen(const char *s)$/;"	f
+strncmp	string.c	/^strncmp(const char *p, const char *q, size_t n)$/;"	f
+strncpy	string.c	/^strncpy(char *dst, const char *src, size_t size) {$/;"	f
+strnlen	string.c	/^strnlen(const char *s, size_t size)$/;"	f
+strtol	string.c	/^strtol(const char *s, char **endptr, int base)$/;"	f
+sync	file.c	/^sync(void)$/;"	f
+sys_cgetc	syscall.c	/^sys_cgetc(void)$/;"	f
+sys_cputs	syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f
+sys_env_destroy	syscall.c	/^sys_env_destroy(envid_t envid)$/;"	f
+sys_env_set_pgfault_upcall	syscall.c	/^sys_env_set_pgfault_upcall(envid_t envid, void *upcall)$/;"	f
+sys_env_set_status	syscall.c	/^sys_env_set_status(envid_t envid, int status)$/;"	f
+sys_env_set_trapframe	syscall.c	/^sys_env_set_trapframe(envid_t envid, struct Trapframe *tf)$/;"	f
+sys_getenvid	syscall.c	/^sys_getenvid(void)$/;"	f
+sys_ipc_recv	syscall.c	/^sys_ipc_recv(void *dstva)$/;"	f
+sys_ipc_try_send	syscall.c	/^sys_ipc_try_send(envid_t envid, uint32_t value, void *srcva, int perm)$/;"	f
+sys_page_alloc	syscall.c	/^sys_page_alloc(envid_t envid, void *va, int perm)$/;"	f
+sys_page_map	syscall.c	/^sys_page_map(envid_t srcenv, void *srcva, envid_t dstenv, void *dstva, int perm)$/;"	f
+sys_page_unmap	syscall.c	/^sys_page_unmap(envid_t envid, void *va)$/;"	f
+sys_yield	syscall.c	/^sys_yield(void)$/;"	f
+syscall	syscall.c	/^syscall(int num, int check, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f	file:
+vcprintf	printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+vfprintf	fprintf.c	/^vfprintf(int fd, const char *fmt, va_list ap)$/;"	f
+vmm_call	vmmcall.c	/^vmm_call()$/;"	f
+vmmcall	vmmcall.c	/^vmmcall(int num, int check, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f	file:
+vprintfmt	printfmt.c	/^vprintfmt(void (*putch)(int, void*), void *putdat, const char *fmt, va_list ap)$/;"	f
+vsnprintf	printfmt.c	/^vsnprintf(char *buf, int n, const char *fmt, va_list ap)$/;"	f
+write	fd.c	/^write(int fdnum, const void *buf, size_t n)$/;"	f
+writebuf	fprintf.c	/^writebuf(struct printbuf *b)$/;"	f	file:

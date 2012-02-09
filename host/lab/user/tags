@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAYSIZE	testbss.c	5;"	d	file:
+CHECK	faultregs.c	43;"	d	file:
+CHECK	faultregs.c	65;"	d	file:
+DEPTH	forktree.c	5;"	d	file:
+LOAD_REGS	faultregs.c	23;"	d	file:
+SAVE_REGS	faultregs.c	13;"	d	file:
+after	faultregs.c	/^static struct regs before, during, after;$/;"	v	typeref:struct:	file:
+before	faultregs.c	/^static struct regs before, during, after;$/;"	v	typeref:struct:regs	file:
+bigarray	testbss.c	/^uint32_t bigarray[ARRAYSIZE];$/;"	v
+check_regs	faultregs.c	/^check_regs(struct regs* a, const char *an, struct regs* b, const char *bn,$/;"	f	file:
+dumbfork	dumbfork.c	/^dumbfork(void)$/;"	f
+duppage	dumbfork.c	/^duppage(envid_t dstenv, void *addr)$/;"	f
+during	faultregs.c	/^static struct regs before, during, after;$/;"	v	typeref:struct:	file:
+eflags	faultregs.c	/^	uint32_t eflags;$/;"	m	struct:regs	file:
+eip	faultregs.c	/^	uintptr_t eip;$/;"	m	struct:regs	file:
+esp	faultregs.c	/^	uintptr_t esp;$/;"	m	struct:regs	file:
+forkchild	forktree.c	/^forkchild(const char *cur, char branch)$/;"	f
+forktree	forktree.c	/^forktree(const char *cur)$/;"	f
+handler	faultalloc.c	/^handler(struct UTrapframe *utf)$/;"	f
+handler	faultallocbad.c	/^handler(struct UTrapframe *utf)$/;"	f
+handler	faultdie.c	/^handler(struct UTrapframe *utf)$/;"	f
+hello	buggyhello2.c	/^const char *hello = "hello, world\\n";$/;"	v
+pgfault	faultregs.c	/^pgfault(struct UTrapframe *utf)$/;"	f	file:
+primeproc	primes.c	/^primeproc(void)$/;"	f
+regs	faultregs.c	/^	struct PushRegs regs;$/;"	m	struct:regs	typeref:struct:regs::PushRegs	file:
+regs	faultregs.c	/^struct regs$/;"	s	file:
+umain	badsegment.c	/^umain(void)$/;"	f
+umain	breakpoint.c	/^umain(void)$/;"	f
+umain	buggyhello.c	/^umain(void)$/;"	f
+umain	buggyhello2.c	/^umain(void)$/;"	f
+umain	divzero.c	/^umain(void)$/;"	f
+umain	dumbfork.c	/^umain(void)$/;"	f
+umain	evilhello.c	/^umain(void)$/;"	f
+umain	fairness.c	/^umain(void)$/;"	f
+umain	faultalloc.c	/^umain(void)$/;"	f
+umain	faultallocbad.c	/^umain(void)$/;"	f
+umain	faultbadhandler.c	/^umain(void)$/;"	f
+umain	faultdie.c	/^umain(void)$/;"	f
+umain	faultevilhandler.c	/^umain(void)$/;"	f
+umain	faultnostack.c	/^umain(void)$/;"	f
+umain	faultread.c	/^umain(void)$/;"	f
+umain	faultreadkernel.c	/^umain(void)$/;"	f
+umain	faultregs.c	/^umain(void)$/;"	f
+umain	faultwrite.c	/^umain(void)$/;"	f
+umain	faultwritekernel.c	/^umain(void)$/;"	f
+umain	forktree.c	/^umain(void)$/;"	f
+umain	hello.c	/^umain(void)$/;"	f
+umain	idle.c	/^umain(void)$/;"	f
+umain	pingpong.c	/^umain(void)$/;"	f
+umain	pingpongs.c	/^umain(void)$/;"	f
+umain	primes.c	/^umain(void)$/;"	f
+umain	softint.c	/^umain(void)$/;"	f
+umain	spin.c	/^umain(void)$/;"	f
+umain	testbss.c	/^umain(void)$/;"	f
+umain	yield.c	/^umain(void)$/;"	f
+val	pingpongs.c	/^uint32_t val;$/;"	v
+zero	divzero.c	/^int zero;$/;"	v

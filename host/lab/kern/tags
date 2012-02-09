@@ -1,0 +1,349 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	console.c	220;"	d	file:
+C	console.c	287;"	d	file:
+CAPSLOCK	console.c	222;"	d	file:
+CGA_BASE	console.h	13;"	d
+CGA_BUF	console.h	14;"	d
+CHECKSUM	entry.S	/^#define CHECKSUM (-(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS))$/;"	d
+CMDBUF_SIZE	monitor.c	17;"	d	file:
+COM1	console.c	27;"	d	file:
+COM_DLL	console.c	31;"	d	file:
+COM_DLM	console.c	32;"	d	file:
+COM_FCR	console.c	36;"	d	file:
+COM_IER	console.c	33;"	d	file:
+COM_IER_RDI	console.c	34;"	d	file:
+COM_IIR	console.c	35;"	d	file:
+COM_LCR	console.c	37;"	d	file:
+COM_LCR_DLAB	console.c	38;"	d	file:
+COM_LCR_WLEN8	console.c	39;"	d	file:
+COM_LSR	console.c	44;"	d	file:
+COM_LSR_DATA	console.c	45;"	d	file:
+COM_LSR_TSRE	console.c	47;"	d	file:
+COM_LSR_TXRDY	console.c	46;"	d	file:
+COM_MCR	console.c	40;"	d	file:
+COM_MCR_DTR	console.c	42;"	d	file:
+COM_MCR_OUT2	console.c	43;"	d	file:
+COM_MCR_RTS	console.c	41;"	d	file:
+COM_RX	console.c	29;"	d	file:
+COM_TX	console.c	30;"	d	file:
+CONSBUFSIZE	console.c	386;"	d	file:
+CRT_COLS	console.h	17;"	d
+CRT_ROWS	console.h	16;"	d
+CRT_SIZE	console.h	18;"	d
+CTL	console.c	219;"	d	file:
+Command	monitor.c	/^struct Command {$/;"	s	file:
+E0ESC	console.c	226;"	d	file:
+ENVGENSHIFT	env.c	20;"	d	file:
+ENV_CREATE	env.h	36;"	d
+ENV_CREATE2	env.h	31;"	d
+Eipdebuginfo	kdebug.h	/^struct Eipdebuginfo {$/;"	s
+Env_map_segment	env.c	/^Env_map_segment(pde_t *pgdir, uintptr_t la, size_t size, physaddr_t pa, int perm)$/;"	f	file:
+Env_map_segment	vmm_syscall.c	/^Env_map_segment(pde_t *pgdir, uintptr_t la, size_t size, physaddr_t pa, int perm)$/;"	f	file:
+FL_IF_CLEAR	env.c	21;"	d	file:
+FL_IF_CLEAR	vmm.h	7;"	d
+HexToDecimal	monitor.c	/^unsigned int HexToDecimal(char * in)$/;"	f
+IO_PIC1	picirq.h	12;"	d
+IO_PIC2	picirq.h	13;"	d
+IO_RTC	kclock.h	9;"	d
+IRQ_OFFSET	picirq.h	16;"	d
+IRQ_SLAVE	picirq.h	15;"	d
+JOS_KERN_ENV_H	env.h	4;"	d
+JOS_KERN_KCLOCK_H	kclock.h	4;"	d
+JOS_KERN_KDEBUG_H	kdebug.h	2;"	d
+JOS_KERN_MONITOR_H	monitor.h	2;"	d
+JOS_KERN_PICIRQ_H	picirq.h	4;"	d
+JOS_KERN_PMAP_H	pmap.h	4;"	d
+JOS_KERN_SCHED_H	sched.h	4;"	d
+JOS_KERN_SYSCALL_H	syscall.h	2;"	d
+JOS_KERN_TRAP_H	trap.h	4;"	d
+JOS_MULTIENV	env.h	11;"	d
+KADDR	pmap.h	29;"	d
+KERN_CR3	vmm_syscall.h	/^uint32_t KERN_CR3;$/;"	v
+KERN_ENV	vmm_syscall.h	/^struct Env* KERN_ENV;$/;"	v	typeref:struct:Env
+MAXARGS	monitor.c	265;"	d	file:
+MAX_IRQS	picirq.h	9;"	d
+MC_NVRAM_SIZE	kclock.h	12;"	d
+MC_NVRAM_START	kclock.h	11;"	d
+MONO_BASE	console.h	11;"	d
+MONO_BUF	console.h	12;"	d
+MULTIBOOT_HEADER_FLAGS	entry.S	/^#define MULTIBOOT_HEADER_FLAGS (MULTIBOOT_MEMORY_INFO | MULTIBOOT_PAGE_ALIGN)$/;"	d
+MULTIBOOT_HEADER_MAGIC	entry.S	/^#define MULTIBOOT_HEADER_MAGIC (0x1BADB002)$/;"	d
+MULTIBOOT_MEMORY_INFO	entry.S	/^#define MULTIBOOT_MEMORY_INFO (1<<1)$/;"	d
+MULTIBOOT_PAGE_ALIGN	entry.S	/^#define MULTIBOOT_PAGE_ALIGN  (1<<0)$/;"	d
+NCOMMANDS	monitor.c	194;"	d	file:
+NO	console.c	216;"	d	file:
+NUMLOCK	console.c	223;"	d	file:
+NVRAM_BASEHI	kclock.h	16;"	d
+NVRAM_BASELO	kclock.h	15;"	d
+NVRAM_CENTURY	kclock.h	27;"	d
+NVRAM_EXTHI	kclock.h	20;"	d
+NVRAM_EXTLO	kclock.h	19;"	d
+NVRAM_PEXTHI	kclock.h	24;"	d
+NVRAM_PEXTLO	kclock.h	23;"	d
+NativeSegdesc	vmm.h	/^struct NativeSegdesc {$/;"	s
+NativeTrapframe	vmm.h	/^struct NativeTrapframe {$/;"	s
+PADDR	pmap.h	19;"	d
+PushNativeRegs	vmm.h	/^struct PushNativeRegs {$/;"	s
+RELOC	entry.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+SCROLLLOCK	console.c	224;"	d	file:
+SHIFT	console.c	218;"	d	file:
+SRL	entry.S	/^#define SRL(val, shamt)		(((val) >> (shamt)) & ~(-1 << (32 - (shamt))))$/;"	d
+TRAPHANDLER	trapentry.S	/^#define TRAPHANDLER(name, num)						\\$/;"	d
+TRAPHANDLER_NOEC	trapentry.S	/^#define TRAPHANDLER_NOEC(name, num)					\\$/;"	d
+UTEMP2	spawn_vmm.c	6;"	d	file:
+UTEMP2USTACK	spawn_vmm.c	5;"	d	file:
+UTEMP3	spawn_vmm.c	7;"	d	file:
+UserStabData	kdebug.c	/^struct UserStabData {$/;"	s	file:
+VMM_H	vmm.h	6;"	d
+VMM_SYSCALL_H	vmm_syscall.h	2;"	d
+VMM_TRAPHANDLER	vmm_trapentry.S	/^#define VMM_TRAPHANDLER(name, num)						\\$/;"	d
+VMM_TRAPHANDLER_NOEC	vmm_trapentry.S	/^#define VMM_TRAPHANDLER_NOEC(name, num)					\\$/;"	d
+WHITESPACE	monitor.c	264;"	d	file:
+_CONSOLE_H_	console.h	4;"	d
+_alltraps	trapentry.S	/^_alltraps:$/;"	l
+_panic	init.c	/^_panic(const char *file, int line, const char *fmt,...)$/;"	f
+_start	entry.S	/^_start:$/;"	l
+_vmm_alltraps	vmm_trapentry.S	/^_vmm_alltraps:$/;"	l
+_warn	init.c	/^_warn(const char *file, int line, const char *fmt,...)$/;"	f
+addr_6845	console.c	/^static unsigned addr_6845;$/;"	v	file:
+alloc_page	monitor.c	/^int alloc_page(int argc, char**argv, struct Trapframe *tf)$/;"	f
+atoi	monitor.c	/^int atoi(char *s)$/;"	f
+basemem	pmap.c	/^static size_t basemem;		\/\/ Amount of base memory (in bytes)$/;"	v	file:
+boot_alloc	pmap.c	/^boot_alloc(uint32_t n, uint32_t align)$/;"	f	file:
+boot_cr3	pmap.c	/^physaddr_t boot_cr3;		\/\/ Physical address of boot time page directory$/;"	v
+boot_freemem	pmap.c	/^static char* boot_freemem;	\/\/ Pointer to next byte of free mem$/;"	v	file:
+boot_map_segment	pmap.c	/^boot_map_segment(pde_t *pgdir, uintptr_t la, size_t size, physaddr_t pa, int perm)$/;"	f	file:
+boot_pgdir	pmap.c	/^pde_t* boot_pgdir;		\/\/ Virtual address of boot time page directory$/;"	v
+bootstack	entry.S	/^bootstack:$/;"	l
+bootstacktop	entry.S	/^bootstacktop:$/;"	l
+break_point_handler	trap.c	/^break_point_handler(struct Trapframe *tf)$/;"	f
+buf	console.c	/^	uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1	file:
+cga_init	console.c	/^cga_init(void)$/;"	f	file:
+cga_putc	console.c	/^cga_putc(int c)$/;"	f	file:
+changeperm	monitor.c	/^int changeperm(int argc, char**argv, struct Trapframe *tf)$/;"	f
+charcode	console.c	/^static uint8_t *charcode[4] = {$/;"	v	file:
+check_boot_pgdir	pmap.c	/^check_boot_pgdir(void)$/;"	f	file:
+check_page_alloc	pmap.c	/^check_page_alloc()$/;"	f	file:
+check_va2pa	pmap.c	/^check_va2pa(pde_t *pgdir, uintptr_t va)$/;"	f	file:
+commands	monitor.c	/^static struct Command commands[] = {$/;"	v	typeref:struct:Command	file:
+cons	console.c	/^} cons;$/;"	v	typeref:struct:__anon1	file:
+cons_getc	console.c	/^cons_getc(void)$/;"	f
+cons_init	console.c	/^cons_init(void)$/;"	f
+cons_intr	console.c	/^cons_intr(int (*proc)(void))$/;"	f	file:
+cons_putc	console.c	/^cons_putc(int c)$/;"	f	file:
+cprintf	printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cputchar	console.c	/^cputchar(int c)$/;"	f
+crt_buf	console.c	/^static uint16_t *crt_buf;$/;"	v	file:
+crt_pos	console.c	/^static uint16_t crt_pos;$/;"	v	file:
+ctlmap	console.c	/^static uint8_t ctlmap[256] = $/;"	v	file:
+curenv	env.c	/^struct Env *curenv = NULL;		\/\/ The current env$/;"	v	typeref:struct:Env
+debug	vmm.c	13;"	d	file:
+debuginfo_eip	kdebug.c	/^debuginfo_eip(uintptr_t addr, struct Eipdebuginfo *info)$/;"	f
+delay	console.c	/^delay(void)$/;"	f	file:
+desc	monitor.c	/^	const char *desc;$/;"	m	struct:Command	file:
+didinit	picirq.c	/^static bool didinit;$/;"	v	file:
+eip_file	kdebug.h	/^	const char *eip_file;		\/\/ Source code filename for EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_addr	kdebug.h	/^	uintptr_t eip_fn_addr;		\/\/ Address of start of function$/;"	m	struct:Eipdebuginfo
+eip_fn_name	kdebug.h	/^	const char *eip_fn_name;	\/\/ Name of function containing EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_namelen	kdebug.h	/^	int eip_fn_namelen;		\/\/ Length of function name$/;"	m	struct:Eipdebuginfo
+eip_fn_narg	kdebug.h	/^	int eip_fn_narg;		\/\/ Number of function arguments$/;"	m	struct:Eipdebuginfo
+eip_line	kdebug.h	/^	int eip_line;			\/\/ Source code linenumber for EIP$/;"	m	struct:Eipdebuginfo
+env_alloc	env.c	/^env_alloc(struct Env **newenv_store, envid_t parent_id)$/;"	f
+env_create	env.c	/^env_create(uint8_t *binary, size_t size)$/;"	f
+env_destroy	env.c	/^env_destroy(struct Env *e) $/;"	f
+env_free	env.c	/^env_free(struct Env *e)$/;"	f
+env_free_list	env.c	/^static struct Env_list env_free_list;	\/\/ Free list$/;"	v	typeref:struct:Env_list	file:
+env_init	env.c	/^env_init(void)$/;"	f
+env_pop_tf	env.c	/^env_pop_tf(struct Trapframe *tf)$/;"	f
+env_run	env.c	/^env_run(struct Env *e)$/;"	f
+env_setup_vm	env.c	/^env_setup_vm(struct Env *e)$/;"	f	file:
+envid2env	env.c	/^envid2env(envid_t envid, struct Env **env_store, bool checkperm)$/;"	f
+envs	env.c	/^struct Env *envs = NULL;		\/\/ All environments$/;"	v	typeref:struct:Env
+envs	pmap.c	/^struct Env *envs;$/;"	v	typeref:struct:Env
+extmem	pmap.c	/^static size_t extmem;		\/\/ Amount of extended memory (in bytes)$/;"	v	file:
+free_page	monitor.c	/^int free_page(int argc, char**argv, struct Trapframe *tf)$/;"	f
+func	monitor.c	/^	int (*func)(int argc, char** argv, struct Trapframe* tf);$/;"	m	struct:Command	file:
+gdt	pmap.c	/^struct Segdesc gdt[] =$/;"	v	typeref:struct:Segdesc
+gdt_pd	pmap.c	/^struct Pseudodesc gdt_pd = {$/;"	v	typeref:struct:Pseudodesc
+getchar	console.c	/^getchar(void)$/;"	f
+i386_detect_memory	pmap.c	/^i386_detect_memory(void)$/;"	f
+i386_init	init.c	/^i386_init(void)$/;"	f
+i386_vm_init	pmap.c	/^i386_vm_init()$/;"	f
+idt	trap.c	/^struct Gatedesc idt[256] = { { 0 } };$/;"	v	typeref:struct:Gatedesc
+idt_init	trap.c	/^idt_init(void)$/;"	f
+idt_pd	trap.c	/^struct Pseudodesc idt_pd = {$/;"	v	typeref:struct:Pseudodesc
+init_stack	spawn_vmm.c	/^init_stack(envid_t child, const char **argv, uintptr_t *init_esp)$/;"	f	file:
+irq_mask_8259A	picirq.c	/^uint16_t irq_mask_8259A = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	v
+irq_setmask_8259A	picirq.c	/^irq_setmask_8259A(uint16_t mask)$/;"	f
+iscons	console.c	/^iscons(int fdnum)$/;"	f
+kbd_init	console.c	/^kbd_init(void)$/;"	f	file:
+kbd_intr	console.c	/^kbd_intr(void)$/;"	f
+kbd_proc_data	console.c	/^kbd_proc_data(void)$/;"	f	file:
+kclock_init	kclock.c	/^kclock_init(void)$/;"	f
+load_icode	env.c	/^load_icode(struct Env *e, uint8_t *binary, size_t size)$/;"	f	file:
+load_vmm_state	vmm.c	/^load_vmm_state()$/;"	f
+lpt_putc	console.c	/^lpt_putc(int c)$/;"	f	file:
+map_segment	spawn_vmm.c	/^map_segment(envid_t child, uintptr_t va, size_t memsz, $/;"	f	file:
+maxpa	pmap.c	/^static physaddr_t maxpa;	\/\/ Maximum physical address$/;"	v	file:
+mc146818_read	kclock.c	/^mc146818_read(unsigned reg)$/;"	f
+mc146818_write	kclock.c	/^mc146818_write(unsigned reg, unsigned datum)$/;"	f
+mon_backtrace	monitor.c	/^mon_backtrace(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_help	monitor.c	/^mon_help(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_kerninfo	monitor.c	/^mon_kerninfo(int argc, char **argv, struct Trapframe *tf)$/;"	f
+monitor	monitor.c	/^monitor(struct Trapframe *tf)$/;"	f
+mygdt	entry.S	/^mygdt:$/;"	l
+mygdtdesc	entry.S	/^mygdtdesc:$/;"	l
+name	monitor.c	/^	const char *name;$/;"	m	struct:Command	file:
+name	trapentry.S	/^	name:								\\$/;"	l
+name	trapentry.S	/^	name:			\/* function starts here *\/		\\$/;"	l
+name	vmm_trapentry.S	/^	name:								\\$/;"	l
+name	vmm_trapentry.S	/^	name:			\/* function starts here *\/		\\$/;"	l
+native_gdt	vmm.h	/^struct Segdesc native_gdt[10];$/;"	v	typeref:struct:Segdesc
+native_gdt_pd	vmm.c	/^struct Pseudodesc native_gdt_pd ;$/;"	v	typeref:struct:Pseudodesc
+native_idt	vmm.c	/^struct Gatedesc native_idt[256] = { { 0 } };$/;"	v	typeref:struct:Gatedesc
+native_idt_pd	vmm.c	/^struct Pseudodesc native_idt_pd = {$/;"	v	typeref:struct:Pseudodesc
+native_trap_frame	vmm.h	/^struct NativeTrapframe native_trap_frame;$/;"	v	typeref:struct:NativeTrapframe
+normalmap	console.c	/^static uint8_t normalmap[256] =$/;"	v	file:
+npage	pmap.c	/^size_t npage;			\/\/ Amount of physical memory (in pages)$/;"	v
+nvram_read	pmap.c	/^nvram_read(int r)$/;"	f	file:
+pa2page	pmap.h	/^pa2page(physaddr_t pa)$/;"	f
+page2kva	pmap.h	/^page2kva(struct Page *pp)$/;"	f
+page2pa	pmap.h	/^page2pa(struct Page *pp)$/;"	f
+page2ppn	pmap.h	/^page2ppn(struct Page *pp)$/;"	f
+page_alloc	pmap.c	/^page_alloc(struct Page **pp_store)$/;"	f
+page_check	pmap.c	/^page_check(void)$/;"	f	file:
+page_decref	pmap.c	/^page_decref(struct Page* pp)$/;"	f
+page_fault_handler	trap.c	/^page_fault_handler(struct Trapframe *tf)$/;"	f
+page_free	pmap.c	/^page_free(struct Page *pp)$/;"	f
+page_free_list	pmap.c	/^static struct Page_list page_free_list;	\/\/ Free list of physical pages$/;"	v	typeref:struct:Page_list	file:
+page_init	pmap.c	/^page_init(void)$/;"	f
+page_initpp	pmap.c	/^page_initpp(struct Page *pp)$/;"	f	file:
+page_insert	pmap.c	/^page_insert(pde_t *pgdir, struct Page *pp, void *va, int perm) $/;"	f
+page_lookup	pmap.c	/^page_lookup(pde_t *pgdir, void *va, pte_t **pte_store)$/;"	f
+page_map	vmm_syscall.c	/^page_map(struct Env* srcenv, void *srcva,$/;"	f	file:
+page_remove	pmap.c	/^page_remove(pde_t *pgdir, void *va)$/;"	f
+page_status	monitor.c	/^int page_status(int argc, char**argv, struct Trapframe *tf)$/;"	f
+pages	pmap.c	/^struct Page* pages;		\/\/ Virtual address of physical page array$/;"	v	typeref:struct:Page
+panicstr	init.c	/^static const char *panicstr;$/;"	v	file:
+pgdir_walk	pmap.c	/^pgdir_walk(pde_t *pgdir, const void *va, int create)$/;"	f
+pic_init	picirq.c	/^pic_init(void)$/;"	f
+print_native_regs	vmm.c	/^print_native_regs(struct PushNativeRegs *regs)$/;"	f
+print_native_trapframe	vmm.c	/^print_native_trapframe(struct NativeTrapframe *tf)$/;"	f
+print_regs	trap.c	/^print_regs(struct PushRegs *regs)$/;"	f
+print_trapframe	trap.c	/^print_trapframe(struct Trapframe *tf)$/;"	f
+putch	printf.c	/^putch(int ch, int *cnt)$/;"	f	file:
+read_eip	monitor.c	/^read_eip()$/;"	f
+reg_eax	vmm.h	/^        uint32_t reg_eax;$/;"	m	struct:PushNativeRegs
+reg_ebp	vmm.h	/^        uint32_t reg_ebp;$/;"	m	struct:PushNativeRegs
+reg_ebx	vmm.h	/^        uint32_t reg_ebx;$/;"	m	struct:PushNativeRegs
+reg_ecx	vmm.h	/^        uint32_t reg_ecx;$/;"	m	struct:PushNativeRegs
+reg_edi	vmm.h	/^        uint32_t reg_edi;$/;"	m	struct:PushNativeRegs
+reg_edx	vmm.h	/^        uint32_t reg_edx;$/;"	m	struct:PushNativeRegs
+reg_esi	vmm.h	/^        uint32_t reg_esi;$/;"	m	struct:PushNativeRegs
+reg_oesp	vmm.h	/^        uint32_t reg_oesp;              \/* Useless *\/$/;"	m	struct:PushNativeRegs
+relocated	entry.S	/^relocated:$/;"	l
+restore_native_state	vmm.c	/^restore_native_state()$/;"	f
+rpos	console.c	/^	uint32_t rpos;$/;"	m	struct:__anon1	file:
+runcmd	monitor.c	/^runcmd(char *buf, struct Trapframe *tf)$/;"	f	file:
+save_native_state	vmm.c	/^save_native_state()$/;"	f
+sched_yield	sched.c	/^sched_yield(void)$/;"	f
+sd_avl	vmm.h	/^	unsigned sd_avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:NativeSegdesc
+sd_base_15_0	vmm.h	/^	unsigned sd_base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:NativeSegdesc
+sd_base_23_16	vmm.h	/^	unsigned sd_base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:NativeSegdesc
+sd_base_31_24	vmm.h	/^	unsigned sd_base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:NativeSegdesc
+sd_db	vmm.h	/^	unsigned sd_db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:NativeSegdesc
+sd_dpl	vmm.h	/^	unsigned sd_dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:NativeSegdesc
+sd_g	vmm.h	/^	unsigned sd_g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:NativeSegdesc
+sd_lim_15_0	vmm.h	/^	unsigned sd_lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:NativeSegdesc
+sd_lim_19_16	vmm.h	/^	unsigned sd_lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:NativeSegdesc
+sd_p	vmm.h	/^	unsigned sd_p : 1;          \/\/ Present$/;"	m	struct:NativeSegdesc
+sd_rsv1	vmm.h	/^	unsigned sd_rsv1 : 1;       \/\/ Reserved$/;"	m	struct:NativeSegdesc
+sd_s	vmm.h	/^	unsigned sd_s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:NativeSegdesc
+sd_type	vmm.h	/^	unsigned sd_type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:NativeSegdesc
+segment_alloc	env.c	/^segment_alloc(struct Env *e, void *va, size_t len)$/;"	f	file:
+serial_exists	console.c	/^static bool serial_exists;$/;"	v	file:
+serial_init	console.c	/^serial_init(void)$/;"	f	file:
+serial_intr	console.c	/^serial_intr(void)$/;"	f
+serial_proc_data	console.c	/^serial_proc_data(void)$/;"	f	file:
+serial_putc	console.c	/^serial_putc(int c)$/;"	f	file:
+shiftcode	console.c	/^static uint8_t shiftcode[256] = $/;"	v	file:
+shiftmap	console.c	/^static uint8_t shiftmap[256] = $/;"	v	file:
+showmap	monitor.c	/^void showmap(uintptr_t start)$/;"	f
+showmappings	monitor.c	/^int showmappings(int argc, char **argv, struct Trapframe *tf)$/;"	f
+spawn	spawn_vmm.c	/^spawn(const char *prog, const char **argv)$/;"	f
+spawnl	spawn_vmm.c	/^spawnl(const char *prog, const char *arg0, ...)$/;"	f
+spin	entry.S	/^spin:	jmp	spin$/;"	l
+stab_binsearch	kdebug.c	/^stab_binsearch(const struct Stab *stabs, int *region_left, int *region_right,$/;"	f	file:
+stab_end	kdebug.c	/^	const struct Stab *stab_end;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabs	kdebug.c	/^	const struct Stab *stabs;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabstr	kdebug.c	/^	const char *stabstr;$/;"	m	struct:UserStabData	file:
+stabstr_end	kdebug.c	/^	const char *stabstr_end;$/;"	m	struct:UserStabData	file:
+sys_cgetc	syscall.c	/^sys_cgetc(void)$/;"	f	file:
+sys_cputs	syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f	file:
+sys_env_destroy	syscall.c	/^sys_env_destroy(envid_t envid)$/;"	f	file:
+sys_env_set_pgfault_upcall	syscall.c	/^sys_env_set_pgfault_upcall(envid_t envid, void *func)$/;"	f	file:
+sys_env_set_status	syscall.c	/^sys_env_set_status(envid_t envid, int status)$/;"	f	file:
+sys_env_set_trapframe	syscall.c	/^sys_env_set_trapframe(envid_t envid, struct Trapframe *tf)$/;"	f	file:
+sys_exofork	syscall.c	/^sys_exofork(void)$/;"	f	file:
+sys_getenvid	syscall.c	/^sys_getenvid(void)$/;"	f	file:
+sys_getenvid	vmm_syscall.c	/^sys_getenvid(void)$/;"	f	file:
+sys_ipc_recv	syscall.c	/^sys_ipc_recv(void *dstva)$/;"	f	file:
+sys_ipc_try_send	syscall.c	/^sys_ipc_try_send(envid_t envid, uint32_t value, void *srcva, unsigned perm)$/;"	f	file:
+sys_page_alloc	syscall.c	/^sys_page_alloc(envid_t envid, void *va, int perm)$/;"	f	file:
+sys_page_map	syscall.c	/^sys_page_map(envid_t srcenvid, void *srcva,$/;"	f	file:
+sys_page_unmap	syscall.c	/^sys_page_unmap(envid_t envid, void *va)$/;"	f	file:
+sys_yield	syscall.c	/^sys_yield(void)$/;"	f	file:
+syscall	syscall.c	/^syscall(uint32_t syscallno, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f
+tf_cs	vmm.h	/^        uint16_t tf_cs;$/;"	m	struct:NativeTrapframe
+tf_ds	vmm.h	/^        uint16_t tf_ds;$/;"	m	struct:NativeTrapframe
+tf_eflags	vmm.h	/^        uint32_t tf_eflags;$/;"	m	struct:NativeTrapframe
+tf_eip	vmm.h	/^        uintptr_t tf_eip;$/;"	m	struct:NativeTrapframe
+tf_err	vmm.h	/^        uint32_t tf_err;$/;"	m	struct:NativeTrapframe
+tf_es	vmm.h	/^        uint16_t tf_es;$/;"	m	struct:NativeTrapframe
+tf_esp	vmm.h	/^        uintptr_t tf_esp;$/;"	m	struct:NativeTrapframe
+tf_padding1	vmm.h	/^        uint16_t tf_padding1;$/;"	m	struct:NativeTrapframe
+tf_padding2	vmm.h	/^        uint16_t tf_padding2;$/;"	m	struct:NativeTrapframe
+tf_padding3	vmm.h	/^        uint16_t tf_padding3;$/;"	m	struct:NativeTrapframe
+tf_padding4	vmm.h	/^        uint16_t tf_padding4;$/;"	m	struct:NativeTrapframe
+tf_regs	vmm.h	/^        struct PushNativeRegs tf_regs;$/;"	m	struct:NativeTrapframe	typeref:struct:NativeTrapframe::PushNativeRegs
+tf_ss	vmm.h	/^        uint16_t tf_ss;$/;"	m	struct:NativeTrapframe
+tf_trapno	vmm.h	/^        uint32_t tf_trapno;$/;"	m	struct:NativeTrapframe
+timer_count	vmm.c	/^static int timer_count;$/;"	v	file:
+tlb_invalidate	pmap.c	/^tlb_invalidate(pde_t *pgdir, void *va)$/;"	f
+togglecode	console.c	/^static uint8_t togglecode[256] = $/;"	v	file:
+trap	trap.c	/^trap(struct Trapframe *tf)$/;"	f
+trap_dispatch	trap.c	/^trap_dispatch(struct Trapframe *tf)$/;"	f	file:
+trapname	trap.c	/^static const char *trapname(int trapno)$/;"	f	file:
+ts	trap.c	/^static struct Taskstate ts;$/;"	v	typeref:struct:Taskstate	file:
+user_mem_assert	pmap.c	/^user_mem_assert(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check	pmap.c	/^user_mem_check(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check_addr	pmap.c	/^static uintptr_t user_mem_check_addr;$/;"	v	file:
+vcprintf	printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+vm_saved_tf	vmm.c	/^struct Trapframe vm_saved_tf;$/;"	v	typeref:struct:Trapframe
+vmm_exit	vmm.c	/^vmm_exit()$/;"	f
+vmm_gdt	vmm.c	/^struct Segdesc vmm_gdt[] =$/;"	v	typeref:struct:Segdesc
+vmm_gdt_pd	vmm.c	/^struct Pseudodesc vmm_gdt_pd = {$/;"	v	typeref:struct:Pseudodesc
+vmm_idt	vmm.c	/^struct Gatedesc vmm_idt[256] = { { 0 } };$/;"	v	typeref:struct:Gatedesc
+vmm_idt_init	vmm.c	/^vmm_idt_init(void)$/;"	f
+vmm_idt_pd	vmm.c	/^struct Pseudodesc vmm_idt_pd = {$/;"	v	typeref:struct:Pseudodesc
+vmm_init	vmm.c	/^vmm_init( )$/;"	f
+vmm_resume	vmm.c	/^vmm_resume()$/;"	f
+vmm_run	vmm.c	/^void vmm_run()$/;"	f
+vmm_segment_alloc	vmm_syscall.c	/^vmm_segment_alloc(struct Env *e, void *va, size_t len)$/;"	f	file:
+vmm_suspend	vmm.c	/^vmm_suspend()$/;"	f
+vmm_sys_cputs	vmm_syscall.c	/^vmm_sys_cputs(const char *s, size_t len)$/;"	f	file:
+vmm_sys_env_pop_tf	vmm_syscall.c	/^vmm_sys_env_pop_tf(void *en)$/;"	f
+vmm_sys_env_setup_vm	vmm_syscall.c	/^vmm_sys_env_setup_vm(void* e_addr)$/;"	f	file:
+vmm_sys_lcr3	vmm_syscall.c	/^vmm_sys_lcr3(uint32_t cr3)$/;"	f	file:
+vmm_sys_load_icode	vmm_syscall.c	/^vmm_sys_load_icode(void* en, void* b, int len)$/;"	f	file:
+vmm_sys_page_alloc	vmm_syscall.c	/^vmm_sys_page_alloc(envid_t envid, struct Env* e, void *va, int perm)$/;"	f	file:
+vmm_syscall1	vmm_syscall.c	/^vmm_syscall1(uint32_t syscallno, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f
+vmm_trap	vmm.c	/^vmm_trap(struct Trapframe *tf)$/;"	f
+vmm_trap_dispatch	vmm.c	/^vmm_trap_dispatch(struct Trapframe *tf)$/;"	f	file:
+vmm_ts	vmm.h	/^static struct Taskstate vmm_ts;$/;"	v	typeref:struct:Taskstate
+wpos	console.c	/^	uint32_t wpos;$/;"	m	struct:__anon1	file:

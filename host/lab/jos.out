@@ -1,0 +1,175 @@
+6828 decimal is 15254 octal!
+null in page_lookup
+Check Perm 2Check Perm 2Check Perm 2page_check() succeeded!
+Check Perm 2
+ in env_init
+enabled interrupts: 1 2
+	     Setup timer interrupts via 8259A
+enabled interrupts: 0 1 2
+	     unmasked timer interrupt
+creating idle
+creating test
+icode startup
+icode: open /motd
+FS is running
+FS can do I/O
+Device 1 presence: 1
+in sys_page_map...
+addr in map: 10001000 src: 10001000
+in sys_page_map...
+addr in map: 10001000 src: 10001000
+block cache is good
+superblock is good
+bitmap is good
+alloc_block is good
+file_open is good
+file_get_block is good
+in sys_page_map...
+addr in map: 10003000 src: 10003000
+in sys_page_map...
+addr in map: 10029000 src: 10029000
+file_flush is good
+in sys_page_map...
+addr in map: 10029000 src: 10029000
+file_truncate is good
+in sys_page_map...
+addr in map: 10029000 src: 10029000
+in sys_page_map...
+addr in map: 10003000 src: 10003000
+in sys_page_map...
+addr in map: 10029000 src: 10029000
+file rewrite is good
+icode: read /motd
+This is /motd, the message of the day.
+
+Welcome to the JOS kernel, now with a file system!
+
+icode: close /motd
+in sys_page_map...
+addr in map: 10004000 src: 10004000
+icode: spawn /init
+*ELF 512 464c457f ELF f010000c
+child: 1003
+in sys_page_map...
+addr in map: eebfd000 src: 400000
+f0100000 ph->p_va e0100000
+in sys_page_map...
+addr in map: e0100000 src: 400000
+in sys_page_map...
+addr in map: e0101000 src: 400000
+in sys_page_map...
+addr in map: e0102000 src: 400000
+in sys_page_map...
+addr in map: e0103000 src: 400000
+in sys_page_map...
+addr in map: e0104000 src: 400000
+in sys_page_map...
+addr in map: e0105000 src: 400000
+in sys_page_map...
+addr in map: e0106000 src: 400000
+in sys_page_map...
+addr in map: e0107000 src: 400000
+f0108000 ph->p_va e0108000
+in sys_page_map...
+addr in map: e0108000 src: 400000
+in sys_page_map...
+addr in map: e0109000 src: 400000
+in sys_page_map...
+addr in map: e010a000 src: 400000
+in sys_page_map...
+addr in map: e010b000 src: 400000
+in sys_page_map...
+addr in map: e010c000 src: 400000
+in sys_page_map...
+addr in map: e010d000 src: 400000
+in sys_page_map...
+addr in map: e010e000 src: 400000
+in sys_page_map...
+addr in map: e010f000 src: 400000
+in sys_page_map...
+addr in map: e0110000 src: 400000
+in sys_page_map...
+addr in map: 10016000 src: 10016000
+in sys_page_map...
+addr in map: 10017000 src: 10017000
+in sys_page_map...
+addr in map: 10018000 src: 10018000
+in sys_page_map...
+addr in map: 10019000 src: 10019000
+in sys_page_map...
+addr in map: 1001a000 src: 1001a000
+in sys_page_map...
+addr in map: 1001b000 src: 1001b000
+in sys_page_map...
+addr in map: 1001c000 src: 1001c000
+in sys_page_map...
+addr in map: 1001d000 src: 1001d000
+in sys_page_map...
+addr in map: 1001e000 src: 1001e000
+in sys_page_map...
+addr in map: 1001f000 src: 1001f000
+in sys_page_map...
+addr in map: 10020000 src: 10020000
+in sys_page_map...
+addr in map: 10021000 src: 10021000
+in sys_page_map...
+addr in map: 10022000 src: 10022000
+in sys_page_map...
+addr in map: 10023000 src: 10023000
+in sys_page_map...
+addr in map: 10024000 src: 10024000
+in sys_page_map...
+addr in map: 10025000 src: 10025000
+in sys_page_map...
+addr in map: 10026000 src: 10026000
+in sys_page_map...
+addr in map: 10027000 src: 10027000
+in sys_page_map...
+addr in map: 10028000 src: 10028000
+in set trap tf eebfdb14, tf->tf_eip e010000c
+icode: exiting
+
+in env_destroy
+[00001003] user fault va 00000472 ip e010000c
+TRAP frame at 0xf01d8174
+  edi  0x00000000
+  esi  0x00000000
+  ebp  0xeebfdd70
+  oesp 0xefbfffdc
+  ebx  0xeebfddc7
+  edx  0x00000007
+  ecx  0x00000027
+  eax  0x00000000
+  es   0x----0023
+  ds   0x----0023
+  trap 0x0000000e Page Fault
+  err  0x00000006
+  eip  0xe010000c
+  cs   0x----001b
+  flag 0x00000292
+  esp  0xeebfdfd0
+  ss   0x----0023
+
+in env_destroy
+going to yield idle
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+TRAP frame at 0xf01d8000
+  edi  0x00000000
+  esi  0x00000000
+  ebp  0xeebfdfd0
+  oesp 0xefbfffdc
+  ebx  0x00000000
+  edx  0x00000000
+  ecx  0x00000000
+  eax  0x0000000b
+  es   0x----0023
+  ds   0x----0023
+  trap 0x00000003 Breakpoint
+  err  0x00000000
+  eip  0x00800056
+  cs   0x----001b
+  flag 0x00000292
+  esp  0xeebfdfb8
+  ss   0x----0023
+just before while of coming out of monitor

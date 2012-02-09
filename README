@@ -1,0 +1,3 @@
+We have created a folder named OS_Project in the path /home/cse506/cse506/lab. This folder contains two folders – host and guest. In order to run the project following steps need to be performed:
+1. From the lab folder in /home/cse506/cse506/lab/OS_Project/guest/lab, execute the following command. “./push.sh”. This shell script “make”s the guest JOS and creates a binary for it and then moves the binary of the guest kernel to the fs folder of the host JOS. THERE MIGHT BE ERROR MESSAGE “make: *** [obj/kern/kernel.img] Error 1” received when executing this shell script. PLEASE IGNORE IT.
+2. From the /home/cse506/cse506/lab/OS_Project/host/lab folder execute the following command “./run.sh”. This makes the host OS and runs it.

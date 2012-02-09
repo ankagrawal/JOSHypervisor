@@ -1,0 +1,242 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	console1.c	219;"	d	file:
+C	console1.c	286;"	d	file:
+CAPSLOCK	console1.c	221;"	d	file:
+CGA_BASE	console.h	13;"	d
+CGA_BUF	console.h	14;"	d
+CHECKSUM	entry.S	/^#define CHECKSUM (-(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS))$/;"	d
+CHECKSUM	entry123.S	/^#define CHECKSUM (-(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS))$/;"	d
+CMDBUF_SIZE	monitor.c	16;"	d	file:
+COM1	console1.c	26;"	d	file:
+COM_DLL	console1.c	30;"	d	file:
+COM_DLM	console1.c	31;"	d	file:
+COM_FCR	console1.c	35;"	d	file:
+COM_IER	console1.c	32;"	d	file:
+COM_IER_RDI	console1.c	33;"	d	file:
+COM_IIR	console1.c	34;"	d	file:
+COM_LCR	console1.c	36;"	d	file:
+COM_LCR_DLAB	console1.c	37;"	d	file:
+COM_LCR_WLEN8	console1.c	38;"	d	file:
+COM_LSR	console1.c	43;"	d	file:
+COM_LSR_DATA	console1.c	44;"	d	file:
+COM_LSR_TSRE	console1.c	46;"	d	file:
+COM_LSR_TXRDY	console1.c	45;"	d	file:
+COM_MCR	console1.c	39;"	d	file:
+COM_MCR_DTR	console1.c	41;"	d	file:
+COM_MCR_OUT2	console1.c	42;"	d	file:
+COM_MCR_RTS	console1.c	40;"	d	file:
+COM_RX	console1.c	28;"	d	file:
+COM_TX	console1.c	29;"	d	file:
+CONSBUFSIZE	console1.c	382;"	d	file:
+CRT_COLS	console.h	17;"	d
+CRT_ROWS	console.h	16;"	d
+CRT_SIZE	console.h	18;"	d
+CTL	console1.c	218;"	d	file:
+Command	monitor.c	/^struct Command {$/;"	s	file:
+E0ESC	console1.c	225;"	d	file:
+ENV_CREATE	env.h	99;"	d
+ENV_CREATE2	env.h	94;"	d
+ENV_FREE	env.h	22;"	d
+ENV_NOT_RUNNABLE	env.h	24;"	d
+ENV_RUNNABLE	env.h	23;"	d
+E_BAD_ENV	error.h	8;"	d
+E_BAD_PATH	error.h	23;"	d
+E_EOF	error.h	17;"	d
+E_FAULT	error.h	14;"	d
+E_FILE_EXISTS	error.h	24;"	d
+E_INVAL	error.h	10;"	d
+E_IPC_NOT_RECV	error.h	16;"	d
+E_MAX_OPEN	error.h	21;"	d
+E_NOT_EXEC	error.h	25;"	d
+E_NOT_FOUND	error.h	22;"	d
+E_NOT_SUPP	error.h	26;"	d
+E_NO_DISK	error.h	20;"	d
+E_NO_FREE_ENV	error.h	12;"	d
+E_NO_MEM	error.h	11;"	d
+E_UNSPECIFIED	error.h	7;"	d
+Eipdebuginfo	kdebug.h	/^struct Eipdebuginfo {$/;"	s
+Env	env.h	/^struct Env {$/;"	s
+JOS_INC_ERROR_H	error.h	4;"	d
+JOS_INC_QUEUE_H	queue.h	36;"	d
+JOS_KERN_ENV_H	env.h	8;"	d
+JOS_KERN_KDEBUG_H	kdebug.h	2;"	d
+JOS_KERN_MONITOR_H	monitor.h	2;"	d
+JOS_MULTIENV	env.h	13;"	d
+LIST_EMPTY	queue.h	142;"	d
+LIST_ENTRY	queue.h	129;"	d
+LIST_FIRST	queue.h	147;"	d
+LIST_FOREACH	queue.h	160;"	d
+LIST_HEAD	queue.h	109;"	d
+LIST_HEAD_INITIALIZER	queue.h	118;"	d
+LIST_INIT	queue.h	168;"	d
+LIST_INSERT_AFTER	queue.h	177;"	d
+LIST_INSERT_BEFORE	queue.h	190;"	d
+LIST_INSERT_HEAD	queue.h	201;"	d
+LIST_NEXT	queue.h	153;"	d
+LIST_REMOVE	queue.h	212;"	d
+MAXARGS	monitor.c	102;"	d	file:
+MAXERROR	error.h	28;"	d
+MONO_BASE	console.h	11;"	d
+MONO_BUF	console.h	12;"	d
+MULTIBOOT_HEADER_FLAGS	entry.S	/^#define MULTIBOOT_HEADER_FLAGS (MULTIBOOT_MEMORY_INFO | MULTIBOOT_PAGE_ALIGN)$/;"	d
+MULTIBOOT_HEADER_FLAGS	entry123.S	/^#define MULTIBOOT_HEADER_FLAGS (MULTIBOOT_MEMORY_INFO | MULTIBOOT_PAGE_ALIGN)$/;"	d
+MULTIBOOT_HEADER_MAGIC	entry.S	/^#define MULTIBOOT_HEADER_MAGIC (0x1BADB002)$/;"	d
+MULTIBOOT_HEADER_MAGIC	entry123.S	/^#define MULTIBOOT_HEADER_MAGIC (0x1BADB002)$/;"	d
+MULTIBOOT_MEMORY_INFO	entry.S	/^#define MULTIBOOT_MEMORY_INFO (1<<1)$/;"	d
+MULTIBOOT_MEMORY_INFO	entry123.S	/^#define MULTIBOOT_MEMORY_INFO (1<<1)$/;"	d
+MULTIBOOT_PAGE_ALIGN	entry.S	/^#define MULTIBOOT_PAGE_ALIGN  (1<<0)$/;"	d
+MULTIBOOT_PAGE_ALIGN	entry123.S	/^#define MULTIBOOT_PAGE_ALIGN  (1<<0)$/;"	d
+NCOMMANDS	monitor.c	31;"	d	file:
+NENV	env.h	17;"	d
+NO	console1.c	215;"	d	file:
+NUMLOCK	console1.c	222;"	d	file:
+PushRegs	env.h	/^struct PushRegs {$/;"	s
+RELOC	entry.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+RELOC	entry123.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+SCROLLLOCK	console1.c	223;"	d	file:
+SHIFT	console1.c	217;"	d	file:
+SRL	entry.S	/^#define SRL(val, shamt)		(((val) >> (shamt)) & ~(-1 << (32 - (shamt))))$/;"	d
+SRL	entry123.S	/^#define SRL(val, shamt)		(((val) >> (shamt)) & ~(-1 << (32 - (shamt))))$/;"	d
+Trapframe	env.h	/^struct Trapframe {$/;"	s
+VMM_ID	syscall.c	/^static uint32_t VMM_ID; $/;"	v	file:
+WHITESPACE	monitor.c	101;"	d	file:
+_CONSOLE_H_	console.h	4;"	d
+_panic	init.c	/^_panic(const char *file, int line, const char *fmt,...)$/;"	f
+_start	entry.S	/^_start:$/;"	l
+_start	entry123.S	/^_start:$/;"	l
+_warn	init.c	/^_warn(const char *file, int line, const char *fmt,...)$/;"	f
+addr_6845	console1.c	/^static unsigned addr_6845;$/;"	v	file:
+bootstack	entry123.S	/^bootstack:$/;"	l
+bootstacktop	entry123.S	/^bootstacktop:$/;"	l
+buf	console1.c	/^	uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1	file:
+buf	printf.c	/^        char buf[256];$/;"	m	struct:printbuf	file:
+cga_init	console1.c	/^cga_init(void)$/;"	f	file:
+cga_putc	console1.c	/^cga_putc(int c)$/;"	f	file:
+charcode	console1.c	/^static uint8_t *charcode[4] = {$/;"	v	file:
+cnt	printf.c	/^        int cnt;        \/\/ total bytes printed so far$/;"	m	struct:printbuf	file:
+commands	monitor.c	/^static struct Command commands[] = {$/;"	v	typeref:struct:Command	file:
+cons	console1.c	/^} cons;$/;"	v	typeref:struct:__anon1	file:
+cons_getc	console1.c	/^cons_getc(void)$/;"	f
+cons_init	console1.c	/^cons_init(void)$/;"	f
+cons_intr	console1.c	/^cons_intr(int (*proc)(void))$/;"	f	file:
+cons_putc	console1.c	/^cons_putc(int c)$/;"	f	file:
+cprintf	printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cputchar	console.c	/^cputchar(int ch)$/;"	f
+cputchar	console1.c	/^cputchar(int c)$/;"	f
+crt_buf	console1.c	/^static uint16_t *crt_buf;$/;"	v	file:
+crt_pos	console1.c	/^static uint16_t crt_pos;$/;"	v	file:
+ctlmap	console1.c	/^static uint8_t ctlmap[256] = $/;"	v	file:
+curenv	env.c	/^struct Env *curenv = NULL;              \/\/ The current env$/;"	v	typeref:struct:Env
+debuginfo_eip	kdebug.c	/^debuginfo_eip(uintptr_t addr, struct Eipdebuginfo *info)$/;"	f
+delay	console1.c	/^delay(void)$/;"	f	file:
+desc	monitor.c	/^	const char *desc;$/;"	m	struct:Command	file:
+eip_file	kdebug.h	/^	const char *eip_file;		\/\/ Source code filename for EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_addr	kdebug.h	/^	uintptr_t eip_fn_addr;		\/\/ Address of start of function$/;"	m	struct:Eipdebuginfo
+eip_fn_name	kdebug.h	/^	const char *eip_fn_name;	\/\/ Name of function containing EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_namelen	kdebug.h	/^	int eip_fn_namelen;		\/\/ Length of function name$/;"	m	struct:Eipdebuginfo
+eip_fn_narg	kdebug.h	/^	int eip_fn_narg;		\/\/ Number of function arguments$/;"	m	struct:Eipdebuginfo
+eip_line	kdebug.h	/^	int eip_line;			\/\/ Source code linenumber for EIP$/;"	m	struct:Eipdebuginfo
+env_alloc	env.c	/^env_alloc(struct Env **newenv_store, envid_t parent_id)$/;"	f
+env_cr3	env.h	/^	physaddr_t env_cr3;		\/\/ Physical address of page dir$/;"	m	struct:Env
+env_create	env.c	/^env_create(uint8_t *binary, size_t size)$/;"	f
+env_free_list	env.c	/^static struct Env_list env_free_list;   \/\/ Free list$/;"	v	typeref:struct:Env_list	file:
+env_id	env.h	/^	envid_t env_id;			\/\/ Unique environment identifier$/;"	m	struct:Env
+env_init	env.c	/^env_init(void)$/;"	f
+env_ipc_dstva	env.h	/^	void *env_ipc_dstva;		\/\/ va at which to map received page$/;"	m	struct:Env
+env_ipc_from	env.h	/^	envid_t env_ipc_from;		\/\/ envid of the sender	$/;"	m	struct:Env
+env_ipc_perm	env.h	/^	int env_ipc_perm;		\/\/ perm of page mapping received$/;"	m	struct:Env
+env_ipc_recving	env.h	/^	bool env_ipc_recving;		\/\/ env is blocked receiving$/;"	m	struct:Env
+env_ipc_value	env.h	/^	uint32_t env_ipc_value;		\/\/ data value sent to us $/;"	m	struct:Env
+env_link	env.h	/^	LIST_ENTRY(Env) env_link;	\/\/ Free list link pointers$/;"	m	struct:Env
+env_parent_id	env.h	/^	envid_t env_parent_id;		\/\/ env_id of this env's parent$/;"	m	struct:Env
+env_pgdir	env.h	/^	pde_t *env_pgdir;		\/\/ Kernel virtual address of page dir$/;"	m	struct:Env
+env_pgfault_upcall	env.h	/^	void *env_pgfault_upcall;	\/\/ page fault upcall entry point$/;"	m	struct:Env
+env_run	env.c	/^env_run(struct Env *e)$/;"	f
+env_runs	env.h	/^	uint32_t env_runs;		\/\/ Number of times environment has run$/;"	m	struct:Env
+env_setup_vm	env.c	/^env_setup_vm(struct Env *e)$/;"	f	file:
+env_status	env.h	/^	unsigned env_status;		\/\/ Status of the environment$/;"	m	struct:Env
+env_tf	env.h	/^	struct Trapframe env_tf;	\/\/ Saved registers$/;"	m	struct:Env	typeref:struct:Env::Trapframe
+envid2env	env.c	/^envid2env(envid_t envid, struct Env **env_store, bool checkperm)$/;"	f
+envid_t	env.h	/^typedef int32_t envid_t;$/;"	t
+envs	env.c	/^struct Env envs[32];                \/\/ All environments$/;"	v	typeref:struct:Env
+func	monitor.c	/^	int (*func)(int argc, char** argv, struct Trapframe* tf);$/;"	m	struct:Command	file:
+getEnvID	syscall.c	/^void getEnvID(char* msg)$/;"	f
+get_userTrapframe	env.c	/^void get_userTrapframe(struct Trapframe* tf)$/;"	f
+getchar	console.c	/^getchar(void)$/;"	f
+getchar	console1.c	/^getchar(void)$/;"	f
+i386_init	init.c	/^i386_init(void)$/;"	f
+idx	printf.c	/^        int idx;        \/\/ current buffer index$/;"	m	struct:printbuf	file:
+iscons	console1.c	/^iscons(int fdnum)$/;"	f
+kbd_init	console1.c	/^kbd_init(void)$/;"	f	file:
+kbd_intr	console1.c	/^kbd_intr(void)$/;"	f
+kbd_proc_data	console1.c	/^kbd_proc_data(void)$/;"	f	file:
+load_icode	env.c	/^load_icode(struct Env *e, uint8_t *binary, size_t size)$/;"	f
+lpt_putc	console1.c	/^lpt_putc(int c)$/;"	f	file:
+mon_backtrace	monitor.c	/^mon_backtrace(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_help	monitor.c	/^mon_help(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_kerninfo	monitor.c	/^mon_kerninfo(int argc, char **argv, struct Trapframe *tf)$/;"	f
+monitor	monitor.c	/^monitor(struct Trapframe *tf)$/;"	f
+mygdt	entry123.S	/^mygdt:$/;"	l
+mygdtdesc	entry123.S	/^mygdtdesc:$/;"	l
+name	monitor.c	/^	const char *name;$/;"	m	struct:Command	file:
+nenv	env.c	/^int nenv = PGSIZE\/sizeof(struct Env);$/;"	v
+normalmap	console1.c	/^static uint8_t normalmap[256] =$/;"	v	file:
+panicstr	init.c	/^static const char *panicstr;$/;"	v	file:
+print_regs	env.c	/^print_regs(struct PushRegs *regs)$/;"	f
+print_trapframe	env.c	/^print_trapframe(struct Trapframe *tf)$/;"	f
+printbuf	printf.c	/^struct printbuf {$/;"	s	file:
+putch	printf.c	/^putch(int ch, void* b1)$/;"	f	file:
+read_eip	monitor.c	/^read_eip()$/;"	f
+reg_eax	env.h	/^        uint32_t reg_eax;$/;"	m	struct:PushRegs
+reg_ebp	env.h	/^        uint32_t reg_ebp;$/;"	m	struct:PushRegs
+reg_ebx	env.h	/^        uint32_t reg_ebx;$/;"	m	struct:PushRegs
+reg_ecx	env.h	/^        uint32_t reg_ecx;$/;"	m	struct:PushRegs
+reg_edi	env.h	/^        uint32_t reg_edi;$/;"	m	struct:PushRegs
+reg_edx	env.h	/^        uint32_t reg_edx;$/;"	m	struct:PushRegs
+reg_esi	env.h	/^        uint32_t reg_esi;$/;"	m	struct:PushRegs
+reg_oesp	env.h	/^        uint32_t reg_oesp;              \/* Useless *\/$/;"	m	struct:PushRegs
+relocated	entry123.S	/^relocated:$/;"	l
+rpos	console1.c	/^	uint32_t rpos;$/;"	m	struct:__anon1	file:
+runcmd	monitor.c	/^runcmd(char *buf, struct Trapframe *tf)$/;"	f	file:
+segment_alloc	env.c	/^segment_alloc(struct Env *e, void *va, size_t len)$/;"	f	file:
+serial_exists	console1.c	/^static bool serial_exists;$/;"	v	file:
+serial_init	console1.c	/^serial_init(void)$/;"	f	file:
+serial_intr	console1.c	/^serial_intr(void)$/;"	f
+serial_proc_data	console1.c	/^serial_proc_data(void)$/;"	f	file:
+serial_putc	console1.c	/^serial_putc(int c)$/;"	f	file:
+shiftcode	console1.c	/^static uint8_t shiftcode[256] = $/;"	v	file:
+shiftmap	console1.c	/^static uint8_t shiftmap[256] = $/;"	v	file:
+spin	entry123.S	/^spin:	jmp	spin$/;"	l
+stab_binsearch	kdebug.c	/^stab_binsearch(const struct Stab *stabs, int *region_left, int *region_right,$/;"	f	file:
+sys_cputs	syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f
+sys_env_pop_tf	syscall.c	/^sys_env_pop_tf(uint32_t e)$/;"	f
+sys_env_setup_vm	syscall.c	/^sys_env_setup_vm(void *e )$/;"	f
+sys_lcr3	syscall.c	/^sys_lcr3(uint32_t cr3)$/;"	f
+sys_load_icode	syscall.c	/^sys_load_icode(void* e, void* b, int len)$/;"	f
+sys_page_alloc	syscall.c	/^sys_page_alloc(int i, struct Env* e, void* va, int perm)$/;"	f
+syscall	syscall.c	/^syscall(int num, int check, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f	file:
+test_backtrace	init.c	/^test_backtrace(int x)$/;"	f
+tf_cs	env.h	/^        uint16_t tf_cs;$/;"	m	struct:Trapframe
+tf_ds	env.h	/^        uint16_t tf_ds;$/;"	m	struct:Trapframe
+tf_eflags	env.h	/^        uint32_t tf_eflags;$/;"	m	struct:Trapframe
+tf_eip	env.h	/^        uintptr_t tf_eip;$/;"	m	struct:Trapframe
+tf_err	env.h	/^        uint32_t tf_err;$/;"	m	struct:Trapframe
+tf_es	env.h	/^        uint16_t tf_es;$/;"	m	struct:Trapframe
+tf_esp	env.h	/^        uintptr_t tf_esp;$/;"	m	struct:Trapframe
+tf_padding1	env.h	/^        uint16_t tf_padding1;$/;"	m	struct:Trapframe
+tf_padding2	env.h	/^        uint16_t tf_padding2;$/;"	m	struct:Trapframe
+tf_padding3	env.h	/^        uint16_t tf_padding3;$/;"	m	struct:Trapframe
+tf_padding4	env.h	/^        uint16_t tf_padding4;$/;"	m	struct:Trapframe
+tf_regs	env.h	/^        struct PushRegs tf_regs;$/;"	m	struct:Trapframe	typeref:struct:Trapframe::PushRegs
+tf_ss	env.h	/^        uint16_t tf_ss;$/;"	m	struct:Trapframe
+tf_trapno	env.h	/^        uint32_t tf_trapno;$/;"	m	struct:Trapframe
+togglecode	console1.c	/^static uint8_t togglecode[256] = $/;"	v	file:
+umain	k.c	/^umain()$/;"	f
+user_tf	env.c	/^struct Trapframe user_tf;$/;"	v	typeref:struct:Trapframe
+vcprintf	printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+wpos	console1.c	/^	uint32_t wpos;$/;"	m	struct:__anon1	file:
